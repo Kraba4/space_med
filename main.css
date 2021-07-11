@@ -1,0 +1,167 @@
+button{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    position: fixed;
+    left: 3%;
+    top: 75%;
+    margin: 0;
+    padding: 0;
+    z-index: 2201;
+    background-image: url(button.png);
+    background-size: cover;
+}
+#screen{
+    margin : 0;
+    padding: 0;
+    position: relative;
+    height: 630px;
+    width: 6085px;
+    background-image: url("bg.jpg");
+    background-size: contain;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+html{
+    overflow:  hidden;
+}
+img{
+    padding: 0;
+    margin: 0;
+}
+#directory{
+    position: fixed;
+    width: 30%;
+    height: 30%;
+    left:8%;
+    top: 70%;
+    padding: 0;
+    margin: 0;
+    display: block;
+    z-index: 2200;
+}
+#directory2{
+    position: fixed;
+    width: 15%;
+    height: 30%;
+    left:60%;
+    top: 70%;
+    padding: 0;
+    margin: 0;
+    display: block;
+    background-color: #0A3618;
+    color:#BDFCD7;
+    z-index: 2200;
+    overflow-y: scroll;
+}
+#directory3{
+    position: fixed;
+    width: 25%;
+    height: 30%;
+    left:75%;
+    top: 70%;
+    padding: 10px;
+    padding-top: 30px;
+    margin: 0;
+    display: block;
+    color: #BDFCD7;
+    background-color: #0A3618;
+    z-index: 2200;
+    overflow-y: scroll;
+}
+#directory2 a, #directory3 a{
+    color: #BDFCD7;
+    text-shadow: 1px 1px 2px  #BDFCD7;
+}
+#clock {
+      position : fixed;
+      left : 5%;
+      width : 100px;
+      top : 95%;
+      height : 5%;
+      border : 6px solid black;
+      text-align : center;
+}
+#directory li{
+    display: inline;
+    float: left;
+    margin-right: 5px;
+    margin-left: 0;
+}
+ul{
+    list-style: none;
+}
+
+#directory2 a{
+    text-decoration: none;
+    font-family: Corbel;
+    font-weight: bold;
+}
+#directory li a{
+    font-family: Corbel;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    width: 100px;
+    display: block;
+    padding: 5px;
+    margin: 0;
+    background-color:#F5D471;
+    text-align: center;
+    border-radius: 6px 6px 0 0;
+}
+#directoryText, #directoryText2{
+    width: 80%;
+    height: 80%;
+    background-color: #FFE79D;
+    clear: left;
+    margin-left: 8%;
+    padding: 10px;
+    padding-top: 30px;
+}
+
+.hpBar{
+    width: 100px;
+    height: 8px;
+    border: 1px solid black;
+    border-radius: 2px;
+    background-color: darkred;
+    position: absolute;
+    display: block;
+    z-index: 500;
+    margin: 0;
+}
+.hpBlock{
+    height: 100%;
+    background-color: red;
+    width: 100%;
+}
+.que{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    background-color: white;
+    display: block;
+    top: 1%;
+    left: 90%;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    position: absolute;
+}
+#count{
+    position: fixed;
+    left: 3%;
+    top:95%;
+    width: 100px;
+    height: 20px;
+    border: 3px solid gold;
+    color: gold;
+    font-weight: bold;
+    border-radius: 3px;
+    z-index: 2000;
+    text-align: center;
+}
